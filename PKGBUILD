@@ -9,7 +9,9 @@ arch=('any')
 url="https://github.com/JU12000/monitorman"
 license=('GPL3')
 depends=('bspwm' 'polybar' 'xorg-xprop' 'xorg-xrandr')
+makedepends=('git')
 source=("$pkgname::git+$url#branch=main")
+sha256sums=('SKIP')
 
 pkgver() {
 	cd "$pkgname"
