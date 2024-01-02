@@ -1,6 +1,6 @@
 pkgbase = monitorman-git
 	pkgdesc = CLI tool for adding/removing and arranging bspwm desktops and monitors
-	pkgver = 1.0.r0.gfbebf90
+	pkgver = 1.0.1.r1.g00e952c
 	pkgrel = 1
 	url = https://github.com/JU12000/monitorman
 	arch = any
