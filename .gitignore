@@ -1,3 +1,4 @@
 # Ignore makepkg and makechrootpkg files
 /monitorman-git
 *.log
+*.pkg.tar.zst

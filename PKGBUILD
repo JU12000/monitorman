@@ -2,7 +2,7 @@
 
 # Maintainer: JU12000
 pkgname=monitorman-git
-pkgver=1.0.0
+pkgver=1.0.r0.gfbebf90
 pkgrel=1
 pkgdesc="CLI tool for adding/removing and arranging bspwm desktops and monitors"
 arch=('any')
@@ -20,6 +20,5 @@ pkgver() {
 
 package() {
 	cd "$pkgname"
-	echo "$(ls $pkgname)"
-	# install -Dm755 target/release/wallust -t "${pkgdir}/usr/bin"
+	install -Dm755 monitorman.sh -t "${pkgdir}/usr/bin"
 }

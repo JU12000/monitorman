@@ -1,0 +1,16 @@
+pkgbase = monitorman-git
+	pkgdesc = CLI tool for adding/removing and arranging bspwm desktops and monitors
+	pkgver = 1.0.r0.gfbebf90
+	pkgrel = 1
+	url = https://github.com/JU12000/monitorman
+	arch = any
+	license = GPL3
+	makedepends = git
+	depends = bspwm
+	depends = polybar
+	depends = xorg-xprop
+	depends = xorg-xrandr
+	source = monitorman-git::git+https://github.com/JU12000/monitorman#branch=main
+	sha256sums = SKIP
+
+pkgname = monitorman-git
